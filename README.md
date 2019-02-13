@@ -1,2 +1,2 @@
-# noise-cancellation
-PLTW Implementation of Active Noise Cancelling
+# pltw-template
+PLTW Implementation of an Android App
