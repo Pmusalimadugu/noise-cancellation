@@ -31,6 +31,28 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    public class ourButtons {
+
+        private int a1;
+
+        public ourButtons(int input) {
+            a1 = input;
+        }
+
+        public int x() {
+            return a1;
+        }
+    }
+
+    ourButtons suwoo = new ourButtons(1);
+    
+
+//    public BottomNavigationView.OnNavigationItemSelectedListener ourButtons
+//            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+//
+//    };
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
